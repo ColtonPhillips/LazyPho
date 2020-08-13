@@ -1,0 +1,2 @@
+C:\Users\phill\lib\games\LazyPho\LazyPho\x64\Debug\LazyPho.exe
+C:\Users\phill\lib\games\LazyPho\LazyPho\x64\Debug\LazyPho.pdb
