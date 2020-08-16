@@ -1,9 +1,7 @@
-/*This source code copyrighted by Lazy Foo' Productions (2004-2020)
-and may not be redistributed without written permission.*/
-
 //Using SDL and standard IO
 #include <SDL.h>
 #include <stdio.h>
+#include "../header/Time.h" // im not loving this already lol.
 
 //Screen dimension constants
 const int SCREEN_WIDTH = 640;
@@ -41,8 +39,8 @@ int main( int argc, char* args[] )
 			//Update the surface
 			SDL_UpdateWindowSurface( window );
 
-			//Wait two seconds
-			SDL_Delay( 2000 );
+			//Wait twenty seconds
+			SDL_Delay( Seconds(20) );
 		}
 	}
 
